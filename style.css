@@ -1,0 +1,312 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Ubuntu&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.slidebar{
+    position: absolute;
+    background-color:rgb(223, 218, 218);
+    /* width: 434px; */
+    font-family: 'Fira Sans',sans-serif ;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+
+.main{
+    /* background-color: yellow; */
+    margin-left: 30px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    padding: 23px;
+}
+
+
+.container{
+    display: flex;
+}
+
+.slidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.slidebar{
+    padding: 45px;
+}
+
+.infocontainer{
+    /* background-color:rgba(207, 2, 88, 0.425); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    height: 58vh;
+}
+
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content:center ;
+    flex-direction: column;
+    font-family: 'Source code pro',sans-serif;
+}
+
+.hello{
+    font-size: 3em;
+
+}
+
+.name{
+    font-size: 2.9em;
+    font-family: 'Source code pro',sans-serif;
+    font-weight:1000;
+}
+
+.about{
+    font-size: 2.5em;
+}
+
+.moreinfo{
+    font-family: 'Source code pro',sans-serif;
+    margin-top: 23px;
+    font-weight: bold;
+}
+ 
+
+
+.btn {
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color:dodgerblue;
+font-weight: bold;
+font-size: 1em;
+margin: 0 3px;
+cursor: pointer;
+}
+
+
+.i-btn ,.button{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+.btn:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+
+.slidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.contactform{
+    font-family: 'Fira Sans',sans-serif ;
+    padding: 0 34px;
+    /* padding-top: 50px; */
+    margin: 0 88px;
+
+}
+
+.contactform h1{
+    font-family: 'Ubuntu',sans-serif;
+    /* text-align: center; */
+    /* padding: 12px 0; */
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 11px;
+    padding-top: 2px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+
+.contactform form div input{
+    /* width: 26vw; */
+    border-radius: 5px;
+    margin: 6px 0px 0 0;
+    padding: 3px;
+}
+
+.contactform form {
+    /* width: 26vw; */
+    margin: 0 50px;
+}
+
+#form-check{
+ display: flex;
+ flex-direction: row;
+}
+
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+#clientenquiry{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0px 0 0;
+    padding: 3px;
+    font-family: 'Fira Sans',sans-serif ;
+}
+
+.btn-sm{
+    font-size: 1em;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.blogitem{
+  margin:20px;
+  
+}
+
+
+.blogcontainer{
+    margin: 0 88px;
+}
+
+
+.blogitem h2{
+
+}
+
+h1{
+    font-family: 'Fira Sans',sans-serif ;
+    margin: 23px;
+}
+
+p{
+    font-family: 'Source code pro',sans-serif;
+}
+
+.intro h2{
+    font-family: 'Fira Sans',sans-serif ;
+    margin:12px;
+}
+
+
+.intro p{
+    font-family: 'Source code pro',sans-serif;
+    margin: 12px;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skill{
+    background-color: red;
+    width: 256px;
+    height: 6px;
+    margin-left: 55px;
+}
+
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+
+.progress{
+
+        margin: 0px 0px 5px 0px;
+}
+
+.intro{
+    margin: 0 -70px;
+}
+
+.intro-sidebar{
+    margin-left: -131px;
+}
+
+.projects{
+    font-family: 'Fira Sans',sans-serif ;
+}
+
+
+#myProjects{
+    font-family: 'Ubuntu',sans-serif;
+}
+.projects ul li a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+footer{
+    background-color: rgb(223, 218, 218);
+    height: 122px;
+    text-align: center;
+    justify-content: center;
+    padding: 28px;
+ 
+}
+
+footer  h1{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+span{
+    margin-right: 20px;
+}
+
+
+.slidebargo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+
+.cross{
+    margin-left: 200px;
+    margin-top: -5px;
+}
+
+.ham{
+    margin-top: -5px;
+   
+}
+
+@media (max-width:1350px) {
+     .devPic{
+        display: none;
+     }
+     .intro,.blogcontainer, .contactform{
+        margin:50px 8px;
+     }
+
+     .devinfo{
+        font-size: 10px;
+     }
+
+     .button{
+        font-size: 10px;
+     }
+}
